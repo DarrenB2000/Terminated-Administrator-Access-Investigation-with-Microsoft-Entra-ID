@@ -1,0 +1,4 @@
+"FindingID","Severity","EmployeeId","Name","JobTitle","Issue"
+"F-04","Medium","MC1034","Victor Sato","Helpdesk Technician","Missing Department attribute - breaks attribute-driven provisioning and reporting"
+"F-04","Medium","MC1038","Felix Volkov","Finance Analyst","Missing Department attribute - breaks attribute-driven provisioning and reporting"
+"F-04","Medium","MC1040","Hugo Doyle","Nurse","Missing Department attribute - breaks attribute-driven provisioning and reporting"

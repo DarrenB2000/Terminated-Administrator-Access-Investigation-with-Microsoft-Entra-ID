@@ -1,0 +1,6 @@
+"FindingID","Severity","EmployeeId","Name","JobTitle","ExcessGroup","Issue"
+"F-03","Medium","MC1011","Hannah Anderson","Billing Specialist","APP-EHR-Users","Active user holds access not implied by current role"
+"F-03","Medium","MC1016","Noah Kowalski","Finance Analyst","APP-Billing-Users","Active user holds access not implied by current role"
+"F-03","CRITICAL","MC1020","Liam Petrov","Helpdesk Technician","IT-Admins","Active user holds access not implied by current role"
+"F-03","Medium","MC1025","Nadia Ali","HR Coordinator","APP-Scheduling-Users","Active user holds access not implied by current role"
+"F-03","Medium","MC1030","Ryan Walsh","Office Manager","APP-HRIS-Users","Active user holds access not implied by current role"

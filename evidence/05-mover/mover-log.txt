@@ -1,0 +1,1 @@
+2026-07-07T08:42:28.4013581+01:00 | MOVER event | sarah.chen | Clinical/Nurse -> Billing & Finance/Billing Specialist | trigger: HR transfer record

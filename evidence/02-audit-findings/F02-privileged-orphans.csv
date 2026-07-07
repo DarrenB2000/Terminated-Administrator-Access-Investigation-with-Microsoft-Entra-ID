@@ -1,0 +1,2 @@
+"FindingID","Severity","EmployeeId","Name","Group","Issue"
+"F-02","CRITICAL","MC1022","Peter Mensah","IT-Admins","TERMINATED user retains PRIVILEGED group membership"

@@ -1,0 +1,41 @@
+EmployeeID,FirstName,LastName,Department,JobTitle,Status,HireDate,TermDate,Notes
+MC1001,Sarah,Chen,Billing & Finance,Billing Specialist,Active,2/1/2024,,
+MC1002,James,Okafor,Clinical,Nurse,Active,5/8/2024,,
+MC1003,Aisha,Mueller,Clinical,Nurse,Active,3/24/2020,,
+MC1004,Daniel,Silva,Clinical,Nurse,Terminated,11/24/2019,1/15/2026,SEEDED: orphaned account - still enabled in directory
+MC1005,Mei,Johansson,Clinical,Nurse,Active,2/19/2023,,
+MC1006,Lucas,Patel,Clinical,Nurse,Active,1/1/2022,,
+MC1007,Priya,Novak,Clinical,Physician,Active,4/8/2019,,
+MC1008,Tom,Reyes,Clinical,Physician,Terminated,10/1/2023,2/3/2026,SEEDED: orphaned account - still enabled in directory
+MC1009,Elena,Kim,Clinical,Physician,Active,4/23/2023,,
+MC1010,Kwame,Dubois,Clinical,Physician,Active,12/18/2024,,
+MC1011,Hannah,Anderson,Billing & Finance,Billing Specialist,Active,4/15/2022,,"SEEDED: privilege creep - former Nurse, retains APP-EHR-Users"
+MC1012,Omar,Hassan,Billing & Finance,Billing Specialist,Active,5/26/2023,,
+MC1013,Julia,Rossi,Billing & Finance,Billing Specialist,Terminated,1/25/2025,11/20/2025,SEEDED: orphaned account - still enabled in directory
+MC1014,Ethan,Tanaka,Billing & Finance,Billing Specialist,Active,3/23/2025,,
+MC1015,Fatima,Brown,Billing & Finance,Finance Analyst,Active,6/9/2022,,
+MC1016,Noah,Kowalski,Billing & Finance,Finance Analyst,Active,4/25/2020,,"SEEDED: privilege creep - former Billing, retains APP-Billing-Users"
+MC1017,Ingrid,Nguyen,Billing & Finance,Finance Analyst,Active,2/3/2021,,
+MC1018,Carlos,Garcia,IT,Helpdesk Technician,Active,2/12/2022,,
+MC1019,Yuki,Smith,IT,Helpdesk Technician,Terminated,6/20/2025,3/10/2026,SEEDED: orphaned account - still enabled in directory
+MC1020,Liam,Petrov,IT,Helpdesk Technician,Active,1/24/2021,,"SEEDED: privilege creep - former SysAdmin, retains IT-Admins membership"
+MC1021,Amara,Lindqvist,IT,System Administrator,Active,9/4/2022,,
+MC1022,Peter,Mensah,IT,System Administrator,Terminated,2/18/2022,2/27/2026,SEEDED: CRITICAL - terminated but retains privileged IT-Admins membership
+MC1023,Sofia,Costa,HR,HR Coordinator,Active,11/20/2021,,
+MC1024,David,Yamamoto,HR,HR Coordinator,Active,6/19/2025,,
+MC1025,Nadia,Ali,HR,HR Coordinator,Active,12/3/2020,,"SEEDED: privilege creep - former Receptionist, retains APP-Scheduling-Users"
+MC1026,Marco,Schmidt,Administration,Receptionist,Active,11/8/2019,,
+MC1027,Chloe,Ortega,Administration,Receptionist,Terminated,5/3/2025,12/5/2025,SEEDED: orphaned account - still enabled in directory
+MC1028,Ivan,Ivanova,Administration,Receptionist,Active,4/28/2025,,
+MC1029,Leila,Moreau,Administration,Office Manager,Active,7/9/2019,,
+MC1030,Ryan,Walsh,Administration,Office Manager,Active,11/27/2022,,"SEEDED: privilege creep - former HR temp cover, retains APP-HRIS-Users"
+MC1031,Grace,Berg,Clinical,Nurse,Active,3/12/2021,,
+MC1032,Samuel,Owusu,Clinical,Nurse,Terminated,4/22/2021,4/1/2026,SEEDED: orphaned account - still enabled in directory
+MC1033,Anya,Ferrari,Billing & Finance,Billing Specialist,Active,12/22/2021,,
+MC1034,Victor,Sato,,Helpdesk Technician,Active,2/20/2024,,SEEDED: data hygiene - missing department attribute
+MC1035,Zara,Khan,HR,HR Coordinator,Active,3/18/2024,,
+MC1036,Oliver,Weber,Administration,Receptionist,Active,4/6/2024,,
+MC1037,Ines,Ramos,Clinical,Physician,Terminated,7/9/2022,3/22/2026,SEEDED: orphaned account - still enabled in directory
+MC1038,Felix,Volkov,,Finance Analyst,Active,12/18/2024,,SEEDED: data hygiene - missing department attribute
+MC1039,Maya,Laurent,IT,System Administrator,Active,11/11/2020,,
+MC1040,Hugo,Doyle,,Nurse,Active,1/8/2025,,SEEDED: data hygiene - missing department attribute

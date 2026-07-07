@@ -1,0 +1,143 @@
+**********************
+PowerShell transcript start
+Start time: 20260707043821
+Username: DELONNEY\USER
+RunAs User: DELONNEY\USER
+Configuration Name: 
+Machine: DELONNEY (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.3.0_x64__8wekyb3d8bbwe\pwsh.dll
+Process ID: 5148
+PSVersion: 7.6.3
+PSEdition: Core
+GitCommitId: 7.6.3
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\medcare-iam-lab\evidence\01-baseline\run-transcript.txt
+PS C:\medcare-iam-lab\scripts> .\setup-broken-state.ps1
+Connecting to Microsoft Graph...
+WARNING: Note: Sign in by Web Account Manager (WAM) is enabled by default on Windows. If using an embedded terminal, the interactive browser window may be hidden behind other windows.
+Connected as: iam-admin@Simedelonneynjebagmail.onmicrosoft.com
+Group exists: APP-EHR-Users
+Created group: APP-Billing-Users
+Group exists: APP-Finance-Users
+Group exists: APP-AdminPortal-Users
+Group exists: APP-HRIS-Users
+Group exists: APP-Scheduling-Users
+Group exists: IT-Admins
+
+Provisioning 40 users...
+Created: MC1001 Sarah Chen [Active]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1002 James Okafor [Active]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1003 Aisha Mueller [Active]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1004 Daniel Silva [Terminated]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1005 Mei Johansson [Active]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1006 Lucas Patel [Active]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1007 Priya Novak [Active]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1008 Tom Reyes [Terminated]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1009 Elena Kim [Active]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1010 Kwame Dubois [Active]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1011 Hannah Anderson [Active]
+   -> added to APP-Billing-Users
+   -> added to APP-EHR-Users
+Created: MC1012 Omar Hassan [Active]
+   -> added to APP-Billing-Users
+Created: MC1013 Julia Rossi [Terminated]
+   -> added to APP-Billing-Users
+Created: MC1014 Ethan Tanaka [Active]
+   -> added to APP-Billing-Users
+Created: MC1015 Fatima Brown [Active]
+   -> added to APP-Finance-Users
+Created: MC1016 Noah Kowalski [Active]
+   -> added to APP-Finance-Users
+   -> added to APP-Billing-Users
+Created: MC1017 Ingrid Nguyen [Active]
+   -> added to APP-Finance-Users
+Created: MC1018 Carlos Garcia [Active]
+   -> added to APP-AdminPortal-Users
+Created: MC1019 Yuki Smith [Terminated]
+   -> added to APP-AdminPortal-Users
+Created: MC1020 Liam Petrov [Active]
+   -> added to APP-AdminPortal-Users
+   -> added to IT-Admins
+Created: MC1021 Amara Lindqvist [Active]
+   -> added to APP-AdminPortal-Users
+   -> added to IT-Admins
+Created: MC1022 Peter Mensah [Terminated]
+   -> added to APP-AdminPortal-Users
+   -> added to IT-Admins
+Created: MC1023 Sofia Costa [Active]
+   -> added to APP-HRIS-Users
+Created: MC1024 David Yamamoto [Active]
+   -> added to APP-HRIS-Users
+Created: MC1025 Nadia Ali [Active]
+   -> added to APP-HRIS-Users
+   -> added to APP-Scheduling-Users
+Created: MC1026 Marco Schmidt [Active]
+   -> added to APP-Scheduling-Users
+Created: MC1027 Chloe Ortega [Terminated]
+   -> added to APP-Scheduling-Users
+Created: MC1028 Ivan Ivanova [Active]
+   -> added to APP-Scheduling-Users
+Created: MC1029 Leila Moreau [Active]
+   -> added to APP-Scheduling-Users
+Created: MC1030 Ryan Walsh [Active]
+   -> added to APP-Scheduling-Users
+   -> added to APP-HRIS-Users
+Created: MC1031 Grace Berg [Active]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1032 Samuel Owusu [Terminated]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1033 Anya Ferrari [Active]
+   -> added to APP-Billing-Users
+Created: MC1034 Victor Sato [Active]
+   -> added to APP-AdminPortal-Users
+Created: MC1035 Zara Khan [Active]
+   -> added to APP-HRIS-Users
+Created: MC1036 Oliver Weber [Active]
+   -> added to APP-Scheduling-Users
+Created: MC1037 Ines Ramos [Terminated]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+Created: MC1038 Felix Volkov [Active]
+   -> added to APP-Finance-Users
+Created: MC1039 Maya Laurent [Active]
+   -> added to APP-AdminPortal-Users
+   -> added to IT-Admins
+Created: MC1040 Hugo Doyle [Active]
+   -> added to APP-EHR-Users
+   -> added to APP-Scheduling-Users
+
+Done. Provisioning log written to evidence\01-baseline\provisioning-log.csv
+Broken state summary: 40 users created; 8 of them are TERMINATED but still ENABLED with access.
+PS C:\medcare-iam-lab\scripts> Stop-Transcript
+**********************
+PowerShell transcript end
+End time: 20260707044404
+**********************

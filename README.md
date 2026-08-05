@@ -1,5 +1,10 @@
-# Enterprise Identity Lifecycle Governance with Microsoft Entra ID
+# Terminated Administrator Access Investigation with Microsoft Entra ID
 ### Detecting and remediating orphaned accounts, privilege creep, and offboarding failures in a regulated healthcare environment
+
+![Platform](https://img.shields.io/badge/Platform-Microsoft%20Entra%20ID-0078D4) ![Tooling](https://img.shields.io/badge/Tooling-Microsoft%20Graph%20PowerShell-blue) ![Compliance](https://img.shields.io/badge/Compliance-HIPAA%20%7C%20GDPR%20%7C%20ISO%2027001-0078D4) ![Findings](https://img.shields.io/badge/Findings-4%20Categories%2C%2017%20Instances-blue) ![Remediation](https://img.shields.io/badge/Remediation-100%25%20Closed-0078D4) ![Status](https://img.shields.io/badge/Status-COMPLETE-brightgreen)
+
+**Author:** Sime Delonney Njeba, Cybersecurity Analyst | IAM Specialist | CEH v13
+[LinkedIn](https://linkedin.com/in/sime-delonney-njeba-10b89a33a) &nbsp;|&nbsp; [GitHub](https://github.com/Deloney-code)
 
 > She was terminated in November. The following July, her account could still sign in, 229 days later. She was not the worst case: a terminated system administrator had retained privileged group membership for 130 days.
 
@@ -8,7 +13,6 @@ This project delivers end to end identity lifecycle governance for MedCare Healt
 **Platform:** Microsoft Entra ID, Microsoft Graph PowerShell, PowerShell 7
 **Regulatory context:** HIPAA, GDPR, ISO 27001 Annex A.9, NIST SP 800 53 (Access Control family)
 **Role performed:** IAM Analyst, end to end (audit, design, implementation, verification)
-**Author:** Sime Delonney Njeba, Cybersecurity Analyst | IAM Specialist | CEH v13
 
 ## Executive summary
 

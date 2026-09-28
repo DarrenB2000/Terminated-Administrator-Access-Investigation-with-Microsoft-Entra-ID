@@ -1,13 +1,6 @@
 # Terminated Administrator Access Investigation with Microsoft Entra ID
 ### Detecting and remediating orphaned accounts, privilege creep, and offboarding failures in a regulated healthcare environment
 
-![Platform](https://img.shields.io/badge/Platform-Microsoft%20Entra%20ID-0078D4) ![Tooling](https://img.shields.io/badge/Tooling-Microsoft%20Graph%20PowerShell-blue) ![Compliance](https://img.shields.io/badge/Compliance-HIPAA%20%7C%20GDPR%20%7C%20ISO%2027001-0078D4) ![Findings](https://img.shields.io/badge/Findings-4%20Categories%2C%2017%20Instances-blue) ![Remediation](https://img.shields.io/badge/Remediation-100%25%20Closed-0078D4) ![Status](https://img.shields.io/badge/Status-COMPLETE-brightgreen)
-
-**Author:** Sime Delonney Njeba, Cybersecurity Analyst | IAM Specialist | CEH v13
-[LinkedIn](https://linkedin.com/in/sime-delonney-njeba-10b89a33a) &nbsp;|&nbsp; [GitHub](https://github.com/Deloney-code)
-
-> She was terminated in November. The following July, her account could still sign in, 229 days later. She was not the worst case: a terminated system administrator had retained privileged group membership for 130 days.
-
 This project delivers end to end identity lifecycle governance for MedCare Health Group, a multinational healthcare organization operating under HIPAA, GDPR, and ISO 27001 requirements. It covers the full arc of real Identity and Access Management (IAM) work: a compliance driven access audit, findings with severity ratings and regulatory mappings, governance documentation, automated Role Based Access Control (RBAC) enforcement, Joiner Mover Leaver (JML) lifecycle implementation, and independent verification that every finding was closed.
 
 **Platform:** Microsoft Entra ID, Microsoft Graph PowerShell, PowerShell 7
@@ -34,9 +27,9 @@ All findings were remediated through policy driven automation: an approved RBAC 
 
 ## Scope of work
 
-**Access audit and findings.** Extracted all users and group memberships through Microsoft Graph PowerShell and reconciled them against the authoritative HR feed. Findings were validated through two independent methods, a manual spreadsheet join and a scripted analysis, producing identical counts. Each finding carries a severity rating, a risk statement, and a mapping to the specific regulatory control it violates. Full report: [docs/02-audit-findings-report.md](docs/02-audit-findings-report.md)
+**Access audit and findings.** Extracted all users and group memberships through Microsoft Graph PowerShell and reconciled them against the authoritative HR feed. Findings were validated through two independent methods, a manual spreadsheet join and a scripted analysis, producing identical counts. Each finding carries a severity rating, a risk statement, and a mapping to the specific regulatory control it violates. 
 
-**Governance design.** Authored the target state access model and the lifecycle policy that governs it. The RBAC design defines an approved role to access matrix built on least privilege, with documented rationale for every access decision including deliberate denials such as billing staff never holding EHR access under the HIPAA minimum necessary standard. The JML policy defines triggers, ownership, ordered procedures, tiered SLAs, exception handling, and audit logging for every lifecycle event. Documents: [docs/03-rbac-design.md](docs/03-rbac-design.md), [docs/04-jml-policy.md](docs/04-jml-policy.md)
+**Governance design.** Authored the target state access model and the lifecycle policy that governs it. The RBAC design defines an approved role to access matrix built on least privilege, with documented rationale for every access decision including deliberate denials such as billing staff never holding EHR access under the HIPAA minimum necessary standard. The JML policy defines triggers, ownership, ordered procedures, tiered SLAs, exception handling, and audit logging for every lifecycle event. 
 
 **RBAC enforcement automation.** Built a reconciliation engine that compares every active user's actual group memberships against the approved matrix, removes excess access, adds missing access, and writes every change to a timestamped log citing the governing policy document. The engine supports a report only mode so every enforcement run is reviewed as a plan before execution. This closed all five privilege creep findings in a single governed run and now operates as the recurring access review tool. Script: [scripts/access-reconciliation.ps1](scripts/access-reconciliation.ps1)
 
@@ -78,6 +71,6 @@ evidence/      timestamped logs, exports, and screenshots for every phase
 
 ## Integrity note
 
-MedCare Health Group is a fictional organization created for this project and all identities are fictional. The platform, the automation, the governance documents, the failures encountered, and the evidence produced are real. The environment was built deliberately broken, audited, remediated, and verified to the standard expected of enterprise IAM delivery.
+ReferralMD Health Group is a fictional organization created for this project and all identities are fictional. The platform, the automation, the governance documents, the failures encountered, and the evidence produced are real. The environment was built deliberately broken, audited, remediated, and verified to the standard expected of enterprise IAM delivery.
 
-**Next in this series:** Cloud IAM Policy Design on AWS, in which MedCare's cloud migration exposes over permissive IAM roles.
+**Next in this series:** Cloud IAM Policy Design on AWS, in which ReferralMD's cloud migration exposes over permissive IAM roles.
